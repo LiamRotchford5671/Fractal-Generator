@@ -9,6 +9,8 @@ This project was inspired and based on the edited Mandelbrot image generator by 
 
 This project implements the generation of the following set of fractals as .png or .jpeg images: Julia Set, Barnsley's Fern, Mandelbrot, Multi-Julia Set / MultiBrot Set. With a simple UI the user can fine tune the characteristics of the desired fractal. We have implemented 3 different coloring modes in this project: normal, custom, and random. The normal mode allows only the customization of the fractal color. Custom allows both fractal color and background color, be it one solid color or a transition between two. Random selects all characteristics for you and logs what was selected in the users /tmp/ directory, in the event you would like to examine what was performed and perhaps apply the same characteristics to a different fractal later on. 
 
+Visit https://rust-fractals.herokuapp.com/ for a demonstration! Courtesy of Simon Barton.
+
 ## Fractal Types
 The following fractal types are supported:
 * `Mandelbrot`: Creates the Original Mandelbrot image
